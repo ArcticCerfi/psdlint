@@ -36,7 +36,9 @@ pip install .
 
 On Windows, that usually looks like:
 
+```
 C:\Users\YourName\AppData\Local\Programs\Python\Python3x\Scripts
+```
 
 Make sure you restart your terminal after updating your PATH!
 
@@ -49,21 +51,21 @@ psdlint <file.psd> [options]
 
 Examples:
 Validate and print the PSD tree:
-```
+```bash
 psdlint example.psd
 ```
 
 Create a backup and fix invalid & duplicate layer names:
-```
+```bash
 python cli.py example.psd -b -fi -fd
 ```
 
 Create a backup and replace a string in all layer names:
-```
+```bash
 psdlint example.psd -b -r "OldName" "NewName"
 ```
 
 Create a backup and add a prefix to all group names:
-```
+```bash
 psdlint example.psd -b -pg "GROUP_"
 ```
