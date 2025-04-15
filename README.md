@@ -30,8 +30,7 @@ If you haven’t already:
 2. Download the latest version of Python (make sure to check "Add Python to PATH" during installation!)
 
 ### 2. Get PSDLint
-#### Option A - Download Zip
-Option A – Download the ZIP (easiest)
+#### Option A - Download the Zip
 
 1. Go to the GitHub repo: https://github.com/ArctiCerfi/psdlint
 2. Click Code → Download ZIP
