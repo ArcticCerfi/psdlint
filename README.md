@@ -26,8 +26,8 @@ Clone the repository and install the required dependencies:
 
 If you haven’t already:
 
--Go to https://www.python.org/downloads/
--Download the latest version of Python (make sure to check "Add Python to PATH" during installation!)
+1. Go to https://www.python.org/downloads/
+2. Download the latest version of Python (make sure to check "Add Python to PATH" during installation!)
 
 ### 2. Get PSDLint
 #### Option A - Download Zip
@@ -46,7 +46,7 @@ pip install .
 ```
 
 #### Option B – Use Git
-If you have Git installed, you can:
+If you have Git installed, you can just:
 ```bash
 git clone https://github.com/<username>/psdlint.git
 cd psdlint
