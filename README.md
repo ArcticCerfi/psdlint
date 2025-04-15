@@ -3,8 +3,11 @@
 a command-line tool for analyzing and fixing issues in PSD files for use in Live2D Cubism.
 ---
 
-Live2D Cubism  
-PSDLint is a CLI tool meant to relief Live2D artists & riggers in  it helps ensure your PSD files abide by Live2D Cubism ID naming conventions, so that no incoherent ID's are generated when loading in your PSD.
+PSDLint is a command-line tool designed to support Live2D artists and riggers by ensuring your PSD files follow the strict naming conventions required by Live2D Cubism. When layer names don't meet these standards, Cubism assigns generic names like ArtMesh1, ArtMesh2, and so on—leading to frustration, confusion, and extra cleanup work during the rigging process.
+
+PSDLint scans your PSD files and flags any layers that don't comply with Cubism's naming rules, helping you catch issues early and maintain clean, coherent layer IDs. Whether you're preparing a PSD for rigging or checking a client's file, this tool helps save time and sanity by enforcing consistent, rig-friendly naming practices.
+
+Stop suffering through chaotic layer names—lint your PSDs before importing!
 
 ## Features
 - **Layer Validation**: Detect invalid layer names and fix them.
@@ -28,6 +31,14 @@ git clone https://github.com/<username>/psdlint.git
 cd psdlint
 pip install .
 ```
+
+🔧 Heads up: If you're getting a “command not found” or similar error after installing, you might need to add Python’s Scripts folder to your system’s PATH (Environment Variables).
+
+On Windows, that usually looks like:
+
+C:\Users\YourName\AppData\Local\Programs\Python\Python3x\Scripts
+
+Make sure you restart your terminal after updating your PATH!
 
 ## Usage
 
