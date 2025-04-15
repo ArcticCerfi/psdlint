@@ -80,7 +80,7 @@ psdlint example.psd
 
 Create a backup and fix invalid & duplicate layer names:
 ```bash
-python cli.py example.psd -b -fi -fd
+psdlint example.psd -b -fi -fd
 ```
 
 Create a backup and replace a string in all layer names:
