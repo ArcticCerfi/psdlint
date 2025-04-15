@@ -64,18 +64,13 @@ positional arguments:
   file                  Path to the PSD file
 
 options:
-  -h, --help            show this help message and exit
-  -t, --trimmtree       Only show relevant layers in the PSD's layer tree.
-  -pg, --prefixgroups [PREFIXGROUPS]
-                        Prepend a custom prefix to all layer groups. (default: 'GROUP_')
-  -b, --backup          Create a backup of the PSD file before processing.
-  -r, --replace TARGET REPLACEMENT
-                        Replace a string of characters with another string of characters
-                        across all layers.
-  -fi, --fixinvalid     Fix invalid layer names by trimming strings & replacing spaces and
-                        special characters with underscores.
-  -fd, --fixduplicate   Fix duplicate layer names by appending a number. (eg. 'Layer' ->        
-                        'Layer_1')
+  -h, --help                            show this help message and exit
+  -t, --trimmtree                       Only show relevant layers in the PSD's layer tree.
+  -pg, --prefixgroups [PREFIXGROUPS]    Prepend a custom prefix to all layer groups. (default: 'GROUP_')
+  -b, --backup                          Create a backup of the PSD file before processing.
+  -r, --replace TARGET REPLACEMENT      Replace a string of characters with another string of characters across all layers.
+  -fi, --fixinvalid     Fix invalid layer names by trimming strings & replacing spaces and special characters with underscores.
+  -fd, --fixduplicate   Fix duplicate layer names by appending a number. (eg. 'Layer' -> 'Layer_1')
 ```
 
 
