@@ -7,7 +7,7 @@ PSDLint is a command-line tool designed to support Live2D artists and riggers by
 
 PSDLint scans your PSD files and flags any layers that don't comply with Cubism's naming rules, helping you catch issues early and maintain clean, coherent layer IDs. Whether you're preparing a PSD for rigging or checking a client's file, this tool helps save time and sanity by enforcing consistent, rig-friendly naming practices.
 
-Stop suffering through chaotic layer names—lint your PSDs before importing!
+Stop suffering through chaotic layer names - lint your PSDs before importing!
 
 ## Features
 - **Layer Validation**: Detect invalid layer names and fix them.
