@@ -61,7 +61,7 @@ usage: psdlint [-h] [-t] [-pg [PREFIXGROUPS]] [-b] [-r TARGET REPLACEMENT] [-fi]
 Check and process PSD files for Live2D.
 
 positional arguments:
-  file                  Path to the PSD file
+  file                                  Path to the PSD file
 
 options:
   -h, --help                            show this help message and exit
