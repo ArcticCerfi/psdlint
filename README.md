@@ -47,7 +47,7 @@ pip install .
 #### Option B – Use Git
 If you have Git installed, you can just:
 ```bash
-git clone https://github.com/<username>/psdlint.git
+git clone https://github.com/ArcticCerfi/psdlint.git
 cd psdlint
 pip install .
 ```
