@@ -20,7 +20,6 @@ Stop suffering through chaotic layer names - lint your PSDs before importing!
 ---
 
 ## Installation
-Clone the repository and install the required dependencies:
 
 ### 1. Install Python
 
