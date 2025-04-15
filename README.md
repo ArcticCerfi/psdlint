@@ -3,7 +3,7 @@
 a command-line tool for analyzing and fixing issues in PSD files for use in Live2D Cubism.
 ---
 
-PSDLint is a command-line tool designed to support Live2D artists and riggers by ensuring your PSD files follow the strict naming conventions required by Live2D Cubism. When layer names don't meet these standards, Cubism assigns generic names like ArtMesh1, ArtMesh2, and so on—leading to frustration, confusion, and extra cleanup work during the rigging process.
+PSDLint is a command-line tool designed to support Live2D artists and riggers by ensuring your PSD files follow the strict naming conventions required by Live2D Cubism. When layer names don't meet these standards, Cubism assigns generic names like ArtMesh1, ArtMesh2, and so on - leading to frustration, confusion, and extra cleanup work during the rigging process.
 
 PSDLint scans your PSD files and flags any layers that don't comply with Cubism's naming rules, helping you catch issues early and maintain clean, coherent layer IDs. Whether you're preparing a PSD for rigging or checking a client's file, this tool helps save time and sanity by enforcing consistent, rig-friendly naming practices.
 
