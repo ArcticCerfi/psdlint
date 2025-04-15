@@ -49,7 +49,7 @@ Run psdlint with the desired options:
 psdlint <file.psd> [options]
 ```
 
-Examples:
+### Examples:
 Validate and print the PSD tree:
 ```bash
 psdlint example.psd
