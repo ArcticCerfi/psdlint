@@ -23,24 +23,35 @@ Stop suffering through chaotic layer names—lint your PSDs before importing!
 Clone the repository and install the required dependencies:
 
 ### 1. Install Python
-Download and install Python from https://www.python.org/downloads/
 
-### 2. Install PSDLint
+If you haven’t already:
+
+-Go to https://www.python.org/downloads/
+-Download the latest version of Python (make sure to check "Add Python to PATH" during installation!)
+
+### 2. Get PSDLint
+#### Option A - Download Zip
+Option A – Download the ZIP (easiest)
+
+1. Go to the GitHub repo: https://github.com/ArctiCerfi/psdlint
+2. Click Code → Download ZIP
+3. Unzip the folder in a permanent location (e.g. Create a folder C:/Tools)
+4. Open a terminal and navigate to the folder, e.g.:
+```bash
+cd C:\Tools\psdlint
+```
+5. Then install with
+```bash
+pip install .
+```
+
+#### Option B – Use Git
+If you have Git installed, you can:
 ```bash
 git clone https://github.com/<username>/psdlint.git
 cd psdlint
 pip install .
 ```
-
-🔧 Heads up: If you're getting a “command not found” or similar error after installing, you might need to add Python’s Scripts folder to your system’s PATH (Environment Variables).
-
-On Windows, that usually looks like:
-
-```
-C:\Users\YourName\AppData\Local\Programs\Python\Python3x\Scripts
-```
-
-Make sure you restart your terminal after updating your PATH!
 
 ## Usage
 
