@@ -19,6 +19,9 @@ Stop suffering through chaotic layer names - lint your PSDs before importing!
 
 ---
 
+![Unbenannt](https://github.com/user-attachments/assets/2623cff1-4ec3-48f1-9ce9-cc86b72f6ec2)
+![Unbenannt](https://github.com/user-attachments/assets/21da00c3-3083-4368-bd16-8e627471a9ad)
+
 ## Installation
 
 ### 1. Install Python
