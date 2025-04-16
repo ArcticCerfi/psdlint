@@ -9,7 +9,7 @@ PSDLint scans your PSD files and flags any layers that don't comply with Cubism'
 
 Stop suffering through chaotic layer names - lint your PSDs before importing!
 
-![{01DC6659-E92A-4F42-8FEF-2D5AEC4B9896}](https://github.com/user-attachments/assets/2cb74061-e97f-44da-a4bc-ba49e4379632)
+![{E332D3F3-3245-4F7D-B8A2-E20C13CEB137}](https://github.com/user-attachments/assets/bbc81a45-d05f-425d-a76c-6b4f129caed8)
 
 ## Features
 - **Layer Validation**: Detect invalid layer names and fix them.
