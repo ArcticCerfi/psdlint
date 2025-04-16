@@ -81,17 +81,19 @@ Validate and print the PSD tree:
 psdlint example.psd
 ```
 
+I highly recommend making a backup before performing any kind of editing operation!
+
 Create a backup and fix invalid & duplicate layer names:
 ```bash
-psdlint example.psd -b -fi -fd
+psdlint [PathToPSD] -b -fi -fd
 ```
 
 Create a backup and replace a string in all layer names:
 ```bash
-psdlint example.psd -b -r "OldName" "NewName"
+psdlint [PathToPSD] -b -r "OldName" "NewName"
 ```
 
 Create a backup and add a prefix to all group names:
 ```bash
-psdlint example.psd -b -pg "GROUP_"
+psdlint [PathToPSD] -b -pg "GROUP_"
 ```
