@@ -34,7 +34,7 @@ If you haven’t already:
 ### 2. Get PSDLint
 #### Option A - Download the Zip
 
-1. Go to the GitHub repo: https://github.com/ArctiCerfi/psdlint
+1. Go to the GitHub repo: https://github.com/ArcticCerfi/psdlint
 2. Click Code → Download ZIP
 3. Unzip the folder in a permanent location (e.g. Create a folder C:/Tools)
 4. Open a terminal and navigate to the folder, e.g.:
@@ -97,3 +97,5 @@ Create a backup and add a prefix to all group names:
 ```bash
 psdlint [PathToPSD] -b -pg "GROUP_"
 ```
+
+Warning: Each backup WILL overwrite the previous one! So move them somewhere else if you want to keep them!
