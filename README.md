@@ -74,6 +74,7 @@ options:
   -fd, --fixduplicate                   Fix duplicate layer names by appending a number. (eg. 'Layer' -> 'Layer_1')
 ```
 
+Warning: Each backup WILL overwrite the previous one! So move them somewhere else if you want to keep them!
 
 ### Examples:
 Validate and print the PSD tree:
@@ -97,5 +98,3 @@ Create a backup and add a prefix to all group names:
 ```bash
 psdlint [PathToPSD] -b -pg "GROUP_"
 ```
-
-Warning: Each backup WILL overwrite the previous one! So move them somewhere else if you want to keep them!
