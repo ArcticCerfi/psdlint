@@ -1,5 +1,4 @@
-# Important Notice!
-I'm not working on this version of the tool anymore, but I'm hoping to write an improved one from the ground up some time. 
+**IMPORTANT:** I'm not working on this version of the tool anymore, but I'm hoping to write an improved one from the ground up some time. 
 
 
 # PSDLint
