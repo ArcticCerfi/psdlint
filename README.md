@@ -1,3 +1,7 @@
+# Important Notice!
+I'm not working on this version of the tool anymore, but I'm hoping to write an improved one from the ground up some time. 
+
+
 # PSDLint
 
 a command-line tool for analyzing and fixing issues in PSD files for use in Live2D Cubism.
